@@ -79,7 +79,8 @@ pre {
 
 .highlight {
     @extend %code-block;
-    border-radius: 1px pre {
+    border-radius: 1px;
+    pre {
         border: none;
         margin: 0;
         padding: 10px 0;

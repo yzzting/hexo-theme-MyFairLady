@@ -1,4 +1,8 @@
 //Article setting
+@import 'post/date';
+@import 'post/morelink';
+@import 'post/paginator';
+
 $article-padding: 1em 0 2em;
 $article-borderBottom: 1px;
 $article-borderBottomColor: #ddd;
@@ -41,12 +45,10 @@ $article-p-img: 100%;
         }
 
         .article-date {
-            @import 'post/date';
             @include article-date;
         }
 
         .article-inner {
-            @import 'post/morelink';
             @include morelink;
         }
 
@@ -96,7 +98,6 @@ $article-p-img: 100%;
         }
 
         .older-posts-link {
-            @import 'post/paginator';
             @include paginator;
         }
     }
